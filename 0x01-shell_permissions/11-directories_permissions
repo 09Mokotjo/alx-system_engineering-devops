@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Find all subdirectories in the current directory
+subdirectories=$(find . -type d)
+
+# Loop through each subdirectory and add execute permission
+for dir in $subdirectories; do
+  chmod a+x "$dir"
+done
+
