@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Change the group owner of the file "hello" to "school"
+sudo chown :school hello
+
+# Verify the changes
+ls -l
+
