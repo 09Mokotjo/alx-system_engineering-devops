@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Get the current owner and group of the symbolic link
+current_owner=$(stat -c '%U' _hello)
+current_group=$(stat -c '%G' _hello)
+
+# Change the owner and group owner of the symbolic link
+sudo chown vincent:_groupname _hello
+
+# Print the updated permissions
+ls -l
+
