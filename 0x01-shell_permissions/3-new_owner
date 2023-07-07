@@ -1,8 +1,3 @@
 #!/bin/bash
-
-# Change the owner of the file "hello" to "betty"
-sudo chown betty:hello hello
-
-# Verify the ownership has been changed
-ls -l
+chown betty hellol
 
