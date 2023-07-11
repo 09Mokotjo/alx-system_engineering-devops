@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -lst of 1.6 /etc/passwd | sort
